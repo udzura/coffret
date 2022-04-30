@@ -1,0 +1,8 @@
+[package]
+name = "coffret"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+libc = "0.2.125"
+rb-sys = { version = "0.8.1", features = ["link-ruby"] }
