@@ -7,5 +7,5 @@ description = "A crate for gems"
 license = "MIT"
 
 [dependencies]
-libc = "0.2.125"
+libc = "^0.2"
 rb-sys = { version = "0.8.1", features = ["link-ruby"] }
