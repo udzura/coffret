@@ -1,6 +1,6 @@
 [package]
 name = "coffret"
-version = "0.0.2"
+version = "0.0.3"
 edition = "2021"
 
 description = "A crate for gems"
@@ -8,4 +8,4 @@ license = "MIT"
 
 [dependencies]
 libc = "^0.2"
-rb-sys = { version = "0.8.1", features = ["link-ruby"] }
+rb-sys = { version = "^0.9", features = ["link-ruby"] }
